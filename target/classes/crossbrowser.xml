@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Caution:Consumes more resources and your device may get stuck -->
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+<test name="ChromeTest">
+<parameter name="browser" value="chrome"/>
+<classes>
+            <class name="com.store.testCases.AccountCreationTests" />
+			<class name="com.store.testCases.LoginLogOffTest" />
+			<class name="com.store.testCases.PlaceOrderTest" />
+			<class name="com.store.testCases.ReviewTest" />
+		    <class name="com.store.testCases.ShareProductTests" />
+			<class name="com.store.testCases.SearchTests" />
+
+</classes>
+</test>
+<test name="FirefoxTest">
+<parameter name="browser" value="firefox" />
+<classes>
+            <class name="com.store.testCases.AccountCreationTests" />
+			<class name="com.store.testCases.LoginLogOffTest" />
+			<class name="com.store.testCases.PlaceOrderTest" />
+			<class name="com.store.testCases.ReviewTest" />
+		    <class name="com.store.testCases.ShareProductTests" />
+			<class name="com.store.testCases.SearchTests" />
+
+</classes>
+</test>
+</suite>

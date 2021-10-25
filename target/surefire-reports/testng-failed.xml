@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ApparelStoreTestSuite]">
+  <test thread-count="5" verbose="0" name="Apparel Store Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.store.testCases.ShareProductTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stopTest"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+          <include name="shareProductTest"/>
+        </methods>
+      </class> <!-- com.store.testCases.ShareProductTests -->
+      <class name="com.store.testCases.SearchTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stopTest"/>
+          <include name="manufacturerTest"/>
+          <include name="itemsSearchTest"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.store.testCases.SearchTests -->
+      <class name="com.store.testCases.PlaceOrderTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stopTest"/>
+          <include name="placeOrder"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.store.testCases.PlaceOrderTest -->
+      <class name="com.store.testCases.LoginLogOffTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stopTest"/>
+          <include name="logOffTest"/>
+          <include name="validLoginTest"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+          <include name="invalidLoginTest"/>
+        </methods>
+      </class> <!-- com.store.testCases.LoginLogOffTest -->
+      <class name="com.store.testCases.AccountCreationTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="getAccountCreationData"/>
+          <include name="stopTest"/>
+          <include name="createAccountCaseTest"/>
+          <include name="createAccountTest"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.store.testCases.AccountCreationTests -->
+      <class name="com.store.testCases.ReviewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stopTest"/>
+          <include name="writeReviewTest"/>
+          <include name="afterMethod"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.store.testCases.ReviewTest -->
+    </classes>
+  </test> <!-- Apparel Store Test(failed) -->
+</suite> <!-- Failed suite [ApparelStoreTestSuite] -->

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 6, Errors: 0, Skipped: 36, Time elapsed: 1.351 s <<< FAILURE! - in TestSuite
+beforeMethod(com.store.testCases.LoginLogOffTest)  Time elapsed: 0.437 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+
+beforeMethod(com.store.testCases.PlaceOrderTest)  Time elapsed: 0.443 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+
+beforeMethod(com.store.testCases.ReviewTest)  Time elapsed: 0.445 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+
+beforeMethod(com.store.testCases.ShareProductTests)  Time elapsed: 0.447 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+
+beforeMethod(com.store.testCases.SearchTests)  Time elapsed: 0.918 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+
+beforeMethod(com.store.testCases.AccountCreationTests)  Time elapsed: 1.039 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/thathakalyanifi/Downloads/ecommerce_selenium/./drivers/chromedriver.exe
+

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApparelStoreTestSuite" verbose="1">
+	<test name="Apparel Store Test">
+	
+		<!-- please specify value for running in respective browsers
+		value="chrome" for running on Google Chrome
+		value="firefox" for running on Mozilla Firefox
+		value="ie" for running on Internet Explorer -->
+		
+		<parameter name="browser" value="chrome" />
+		<classes>
+  	    
+			<class name="com.store.testCases.AccountCreationTests" />
+			<class name="com.store.testCases.LoginLogOffTest" />
+			<class name="com.store.testCases.PlaceOrderTest" />
+			<class name="com.store.testCases.ReviewTest" />
+		   <class name="com.store.testCases.ShareProductTests" />
+			<class name="com.store.testCases.SearchTests" />
+			
+			
+		   
+		</classes>
+	</test>
+</suite>
